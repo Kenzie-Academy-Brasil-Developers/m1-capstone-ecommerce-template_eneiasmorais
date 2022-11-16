@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+main{
+    display:flex
+}
+
+#titulo{
+    margin: 0px;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;    
+}
+
+.itemNav{
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+
+.itemNav:hover{
+    font-weight: bold;
+    color: #828282;
+}
+
+#vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0px;
+    width: 75%;
+}
+
+.cards{
+    width: 240px;
+    margin: 20px;
+    background-color: #F5F5F5;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.cards:hover{
+    border: 2px solid #2E245E;
+}
+
+.tags{
+    background-color: #2E245E;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.tituloCard{
+    font-size: 18px;
+}
+
+.descricao{
+    font-size: 14px;
+}
+
+.preco{
+    color: #37268C;
+    font-size: 16px;
+    padding: 0;
+}
+
+.adicionar{
+    background-color: white;
+    border: none;
+    padding: 0px;
+}
+
+.adicionar:hover{
+    color: #2E245E;
+    text-decoration: underline;
+}
+
+.pesquisa{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.inserirPesquisa{
+    height: 100%;
+    width: 200px;
+    padding: 0;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.botaoPesquisa{
+    height: 100%;
+    width: 90px;
+    color: white;
+    background-color: #37268C;
+    border: none;
+}
+
+.tituloCarrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    background-color: #37268C;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.carrinho{
+    height: 300px;
+    width: 100%;
+    background-color: #F5F5F5;
+    
+    
+}
+
+.carrinhoVazio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.imgCarrinho{
+    width: 50px;
+}
+
+.listaItens{
+    list-style: none;
+    padding: 0;
+    height: 225px;
+}
+
+.itensCompra{
+    display: flex;
+    width: 100%;
+    height: 75px;
+}
+
+.imgCarrinho{
+    height: 100%;
+    width: 100px;
+}
+
+.divInf{
+    width: 100%;
+}
+
+.h2Carrinho{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.h3Carrinho{
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    
+}
+
+.qtde{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+
+.qtde{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+    width: 100%;
+}
+
+.tituloQtde{
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.numQtde{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+    width: 100%;
+}
+
+.tituloTotal{
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.numTotal{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-right: 5px;
+    font-size: 14px;
+}
